@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css" />
+  <body>
+    <h1 id="title">HeadShot Demon or Spray Down Master?</h1>
+    <p id="description"> Are you a Vandal or Phantom user?</p>
+    <form id="survey-form">
+    <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text"        
+       placeholder="What are you called?" required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="How can we contact you?" required /></label>
+        <label for="age" id="number-label">Input your age (years): <input id="number" type="number" name="age" min="13" max="120" value="age" placeholder="How old are you?" /></label>
+    </fieldset>
+          <fieldset>
+            <h2> Choose your region </h2>
+        <label for="americas"><input id="americas" type="radio" name="region" class="inline" value="a" /> Americas</label>
+        <label for="europe"><input id="europe" type="radio" name="region" class="inline" value="e" /> Europe</label>
+        <label for="pacific"><input id="pacific" type="radio" name="region" class="inline" value="p" /> Pacific/Other regions</label>
+      </fieldset>
+    <fieldset>
+    <label for="weapon"> Please select one and provide a reason 
+          <select id="dropdown" name="weapon">
+            <option value="">(select one)</option>
+            <option value="1">Phantom </option>
+            <option value="2">Vandal </option>
+            </label>
+    </fieldset> 
+    <label for="feedback">
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="I don't like the vandal because..."></textarea>
+        </label>
+    <fieldset>
+      <h3> Select your main(s) </h3>
+      <label for="agents"> Brimstone
+          <input id="agents" type="checkbox" required name="Brimstone" class="inline" value="1" />
+          </label>
+          <label for="agents"> Viper
+          <input id="agents" type="checkbox" required name="Viper" class="inline" value="2" />
+          </label>
+          <label for="agents"> Omen
+          <input id="agents" type="checkbox" required name="Omen" class="inline" value="3" />
+          </label>
+          <label for="agents"> Killjoy
+          <input id="agents" type="checkbox" required name="Killjoy" class="inline" value="4" />
+          </label>
+          <label for="agents"> Cypher
+          <input id="agents" type="checkbox" required name="Cypher" class="inline" value="5" />
+          </label>
+          <label for="agents"> Sova
+          <input id="agents" type="checkbox" required name="Sova" class="inline" value="6" />
+          </label>
+          <label for="agents"> Sage
+          <input id="agents" type="checkbox" required name="Sage" class="inline" value="7" />
+          </label>
+          <label for="agents"> Phoenix
+          <input id="agents" type="checkbox" required name="Phoenix" class="inline" value="8" />
+          </label>
+          <label for="agents"> Jett
+          <input id="agents" type="checkbox" required name="Jett" class="inline" value="9"/>
+          </label>
+          <label for="agents"> Reyna
+          <input id="agents" type="checkbox" required name="Reyna" class="inline" value="10" />
+          </label>
+          <label for="agents"> Raze
+          <input id="agents" type="checkbox" required name="" class="inline" value="11"/>
+          </label>
+          <label for="agents"> Breach
+          <input id="agents" type="checkbox" required name="Breach" class="inline" value="12"/>
+          </label>
+          <label for="agents"> Skye
+          <input id="agents" type="checkbox" required name="Skye" class="inline" value="13"/>
+          </label>
+          <label for="agents"> Yoru
+          <input id="agents" type="checkbox" required name="Yoru" class="inline" value="14"/>
+          </label>
+          <label for="agents"> Astra
+          <input id="agents" type="checkbox" required name="Astra" class="inline" value="15"/>
+          </label>
+          <label for="agents"> KAY/O
+          <input id="agents" type="checkbox" required name="KO" class="inline" value="16"/>
+          </label>
+          <label for="agents"> Chamber
+          <input id="agents" type="checkbox" required name="Chamber" class="inline" value="17"/>
+          </label>
+          <label for="agents"> Neon
+          <input id="agents" type="checkbox" required name="Neon" class="inline" value="18"/>
+          </label>
+          <label for="agents"> Fade
+          <input id="agents" type="checkbox" required name="Fade" class="inline" value="19"/>
+          </label>
+          <label for="agents"> Harbor
+          <input id="agents" type="checkbox" required name="Harbor" class="inline" value="20"/>
+          </label>
+          <label for="agents"> Gekko
+          <input id="agents" type="checkbox" required name="Gekko" class="inline" value="21"/>
+          </label>
+      </fieldset>
+  <input id="submit" type="submit" value="Submit" >
+    </form>
+  </body>
+</html>
